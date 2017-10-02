@@ -1,0 +1,232 @@
+html *
+{
+ font-family: monospace !important;
+}
+.float-right {
+  float: right;
+}
+.btn-clear {
+  float: right;
+}
+.card {
+  margin-bottom: 15px;
+  box-shadow: 0 .1rem .4rem rgba(0, 0, 0, .3);
+  padding: 2rem;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+.card-header h4,
+.modal-header h4 {
+  font-weight: 400;
+}
+
+.flex-box {
+ display: inline-block;
+}
+
+.card h2 {
+  color: #555555;
+  font-weight: 300;
+}
+
+.page-header {
+  background-color: #696969;
+  font-size: 2.5rem;
+  color: #E3E3E3;
+  padding: 1.5rem;
+}
+
+.btn-right {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.card-body p {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+textarea.form-input {
+  font-weight: 300;
+  font-size: 1.1rem;
+
+  width: 100%;
+  height: 50px;
+}
+.form-group .form-label {
+  font-size: 1.1rem;
+  color: #aaaaaa;
+  margin-right: 1px;
+}
+input.form-input {
+  font-weight: 300;
+  font-size: 1.1rem;
+  margin-top: 20px;
+  width: 75%;
+}
+
+.form-group .dds {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 700px) {
+  .card {
+    padding: .5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .card .card-title {
+    font-size: 1.6rem;
+  }
+  .card-body p {
+    font-size: 1.4rem;
+    font-weight: 300;
+  }
+  .card-header {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.card .address {
+ white-space: pre-wrap;
+}
+
+.fav-teams {
+  overflow-y: auto;
+  height:200px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+}
+
+.modal-content .modal-body {
+  overflow: visible;
+}
+.modal-content .modal-footer {
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: -30px;
+  margin-left: 0px;
+
+
+}
+.modal-header .modal-title {
+  color: #707070;
+  font-size:1.4rem;
+  margin-top: -20px;
+}
+
+/* The Close Button */
+.btn-close {
+  font-size: 15px;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  display:block;
+  text-shadow: -1px 1px #417cb8;
+  border: none;
+  background-color: #0000ff;
+  appearance: none;
+  margin-top: -2px;
+  margin-left: 5px;
+  float:right;
+  color: #ffffff;
+}
+
+.card .btn {
+  width: 160px;
+  display: inline-block;
+  margin: 0 0px 0px 0px;
+  padding: 0px 0px;
+  font-family: monospace;
+  line-height: 1.1;
+  appearance: none;
+  box-shadow: none;
+  font-size: 16px;
+  border-radius: 0;
+  color: #fff;
+  background-color: #6496c8;
+  text-shadow: -1px 1px #417cb8;
+  border: none;
+  font-weight: bold;
+  margin-left: 450px;
+  border-left: 1px solid gray;
+  padding: 1em;
+  overflow: hidden;
+}
+
+.btn-save {
+  width: 60%;
+  display: table-cell;
+  height: 40px;
+
+  margin: 0 -20px 0 0;
+  padding: 0px 0px;
+  font-family: monospace;
+  line-height: 1.1;
+  appearance: none;
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 0;
+  color: #fff;
+  background-color: #3300ff;
+  text-shadow: -1px 1px #417cb8;
+  border: none;
+  font-weight: bold;
+  border-left: 0px solid gray;
+  padding: 1em;
+  overflow: hidden;
+}
+
+.btn-cancel {
+  width: 60%;
+  display: table-cell;
+  height: 40px;
+  margin: 0px 0px 0 -20px;
+  padding: 0px 0px;
+  font-family: monospace;
+  line-height: 1.1;
+  appearance: none;
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 0;
+  color: #fff;
+  background-color: #331155;
+  text-shadow: -1px 1px #417cb8;
+  border: none;
+  font-weight: bold;
+  border-left: 0px solid gray;
+  padding: 1em;
+  overflow: hidden;
+
+}
+
+.add-favteam {
+  font-size: 1.1rem;
+  color:#0000ff;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
